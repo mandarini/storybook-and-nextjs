@@ -2,8 +2,12 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "nexlib": "libs/nexlib",
+    "nexlib-e2e": "apps/nexlib-e2e",
     "reapp": "apps/reapp",
     "reapp-e2e": "apps/reapp-e2e",
+    "reliib": "libs/reliib",
+    "reliib-e2e": "apps/reliib-e2e",
     "web": "apps/web",
     "web-e2e": "apps/web-e2e"
   }
